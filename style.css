@@ -1,0 +1,91 @@
+html {
+  height: 100%;
+  width: 100%;
+  background: #292929;
+}
+.hello {
+  width:1000px;
+  min-height:100vh;
+  background:#292929;
+  display: flex;
+  align-items: center ;
+  justify-content: center ;
+  flex-direction: column; 
+  }
+.hello h1 {
+  color:white;
+  font-weight:1000;
+  font-size:200%;
+  margin-bottom:10px;
+  }
+.A {
+  display:flex;
+  align-items: center ;
+  width:90%;
+  max-width:800px;
+  background:white;
+  }
+.left {
+  padding:50px;
+  align-self:left;
+  background:#6b00d5;
+  height:380px;
+  width:320px;
+  
+  }
+.right {
+  padding:50px;
+  align-self:right;
+  background:#6b00d5;
+  height:380px;
+  margin-left:5px;
+  }
+.hello label{
+  color:white;
+  }
+.box{
+  margin:10px 0;
+  border:1px solid white;
+  color:white;
+  font-size:12px;
+  background: transparent;
+}
+#phone {
+     margin-left:100px;
+  }
+  #city,#state{
+      margin-left:70px;
+  }
+#female,#other{
+  margin-left:55px;
+}
+::placeholder {
+     color:white;
+     font-size:8px;
+  }
+.B{
+  max-width: 800;
+  width: 80%;
+  margin-left: 50%;
+}
+.B label{
+  font-size:15px;
+  }
+#register{
+  width: 15%;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-left: 10%;
+  transition: background 0.5s;  
+  }
+#register:hover {
+  background: black;
+  color: white;
+  
+  
+  
+  
+  
+  
